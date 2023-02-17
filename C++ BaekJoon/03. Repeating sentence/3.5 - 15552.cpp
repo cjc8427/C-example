@@ -2,36 +2,24 @@
 // 백준 15552번 - 빠른 A+B
 // 백준 주소: https://www.acmicpc.net/problem/15552
 
+// 2회차
+#include<iostream>
+using namespace std;
 
+int main(){
+    ios_base::sync_with_stdio(false);
+    cin.tie(NULL);	           
+    int a, b, T, sum;
 
+    cin >> T;
+    for(int i = 0; i < T; i++){
+        cin >> a >> b;
+        sum = a + b;
+        cout << sum << "\n";
+    }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    return 0;
+}
 
 // #include<iostream>
 // using namespace std;

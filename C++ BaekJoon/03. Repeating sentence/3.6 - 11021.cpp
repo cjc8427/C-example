@@ -2,36 +2,19 @@
 // 백준 11021번 - A+B - 7
 // 백준 주소: https://www.acmicpc.net/problem/11021
 
+// 2회차
+#include<iostream>
+using namespace std;
 
+int main(){
+    int a, b, T;
+    cin >> T;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    for(int i = 0; i < T; i++){
+        cin >> a >> b;
+        cout << "Case #" << i + 1 << ": " << a+b << endl;
+    }
+}
 
 // #include<iostream>
 // using namespace std;
