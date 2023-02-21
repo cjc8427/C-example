@@ -1,48 +1,33 @@
-// 3단계 조건문 12번
+// 3단계 반복문 12번
 // 백준 1110번 - 더하기 사이클
 // 백준 주소: https://www.acmicpc.net/problem/1110
 
+// 2회차
+#include<iostream>
+using namespace std;
+
+int main(){
+    int i = 0, N, num, ten, one, result;
+
+    cin >> N;
+
+    num = N;
+
+    do{
+        ten = num/10;
+        one = num%10;
+
+        num = one*10 + (ten+one)%10;
+
+        i++;    
+          
+    }while( N != num );
+
+    cout << i << endl;
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    return 0;
+}
 
 
 
