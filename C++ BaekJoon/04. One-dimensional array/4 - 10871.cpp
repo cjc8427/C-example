@@ -3,7 +3,22 @@
 // 백준 주소: https://www.acmicpc.net/problem/10871
 
 
+// 2회차
+#include<iostream>
+using namespace std;
 
+int main(){
+    int N, X, num;
+    cin >> N >> X;
+    int arr[N];
+    for(int i = 0; i < N; i++){
+        cin >> num;
+        arr[i] = num;
+    }
+    
+
+    return 0;
+}
 
 
 
